@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://mydomain.org/mysite/</loc>
+         <loc>https://hitsz-frisbee.club/</loc>
+         <lastmod>2025-10-31</lastmod>
+    </url>
+    <url>
+         <loc>https://hitsz-frisbee.club/about/history/</loc>
+         <lastmod>2025-10-31</lastmod>
+    </url>
+    <url>
+         <loc>https://hitsz-frisbee.club/about/introduction/</loc>
+         <lastmod>2025-10-31</lastmod>
+    </url>
+    <url>
+         <loc>https://hitsz-frisbee.club/activities/events/</loc>
+         <lastmod>2025-10-31</lastmod>
+    </url>
+    <url>
+         <loc>https://hitsz-frisbee.club/activities/training/</loc>
+         <lastmod>2025-10-31</lastmod>
+    </url>
+    <url>
+         <loc>https://hitsz-frisbee.club/beginner/introduction/</loc>
+         <lastmod>2025-10-31</lastmod>
+    </url>
+    <url>
+         <loc>https://hitsz-frisbee.club/join/how-to-join/</loc>
+         <lastmod>2025-10-31</lastmod>
+    </url>
+    <url>
+         <loc>https://hitsz-frisbee.club/rules/</loc>
          <lastmod>2025-10-31</lastmod>
     </url>
 </urlset>
