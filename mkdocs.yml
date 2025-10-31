@@ -1,5 +1,139 @@
-site_name: My Docs
-site_name: My site
-site_url: https://mydomain.org/mysite
+site_name: 哈尔滨工业大学（深圳）极限飞盘协会
+site_url: https://hitsz-frisbee.club
+site_description: 哈尔滨工业大学（深圳）极限飞盘协会官方网站
+
+nav:
+  - 首页: index.md
+  - 关于我们:
+    - 协会简介: about/introduction.md
+    - 发展历程: about/history.md
+  - 赛事活动:
+    - 赛事回顾: activities/events.md
+    - 常规训练: activities/training.md
+  - 新手入门:
+    - 运动介绍: beginner/introduction.md
+  - 飞盘规则:
+    - 飞盘规则: rules/index.md
+  - 联系我们:
+    - 加入我们: join/how-to-join.md
+
 theme:
   name: material
+  custom_dir: overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+extra:
+  social:
+    - icon: fontawesome/brands/qq
+      link: https://qun.qq.com/universal-share/share?ac=1&authKey=Jl9qa4BNz7pskD1Aa2UBwyN3gbNDKq69NPqMcWOn1pQtAAUwOOhlQ1cbOK810dDx&busi_data=eyJncm91cENvZGUiOiIzOTg2MTMyODgiLCJ0b2tlbiI6IktQK3FuVkNjZnAreGx0Mi95ZWdmVVpxM3dSYzlWd1laVThNNUZzZmdrdnpjVUJNRHdPcjVaek9WWXRWL0ZBSWsiLCJ1aW4iOiIyNjY0MTM1ODgyIn0%3D&data=ktqO6I8QcsnIM_Ue3_K7av7zxYL8tSCPnIhZhyg7oUAAwGHWD7xBTfUeZGBKYWP9MwDi4HO3a3Ksr36pt3y6Qg&svctype=4&tempid=h5_group_info
+      name: QQ群
+    - icon: fontawesome/solid/envelope
+      link: mailto:2664135882@qq.com
+      name: 邮箱联系
+
+# Markdown 扩展配置
+markdown_extensions:
+  # Python Markdown 核心扩展
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  
+  # PyMdown Extensions - 增强功能
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+copyright: Copyright &copy; 2025 哈尔滨工业大学（深圳）极限飞盘协会
