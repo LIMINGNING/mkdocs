@@ -28,7 +28,7 @@
 !!! note "飞盘手势"
     **飞盘手势（中文）**
     
-    [:material-download: 下载手势指南](飞盘手势-中文.pdf){ .md-button }
+    [:material-download: 下载手势指南](飞盘手势-中文.pdf){ .md-button .md-button--primary }
     
     详细介绍了极限飞盘比赛中的常用手势。
 

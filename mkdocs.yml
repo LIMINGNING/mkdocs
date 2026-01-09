@@ -70,9 +70,11 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
+  favicon: assets/images/无字徽章.png
+  logo: assets/images/无字徽章.png
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   social:

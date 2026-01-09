@@ -48,7 +48,8 @@ def convert_pdf_with_pymupdf(pdf_path, output_dir, dpi=300):
         mat = fitz.Matrix(dpi/72.0, dpi/72.0)
         
         # 渲染页面为图像
-        pix = page.get_pixmap(matrix=mat, alpha=False)
+        # alpha=True 保持背景透明
+        pix = page.get_pixmap(matrix=mat, alpha=True)
         
         # 生成输出文件名
         if len(pdf_document) == 1:
